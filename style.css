@@ -1,0 +1,132 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    color: #fbfbfb;
+    background: #1a1a2e;
+    line-height: 1.6;
+}
+
+header {
+    background: #0f3460;
+    padding: 1rem;
+}
+
+nav ul {
+    display: flex;
+    list-style-type: none;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #e94560;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: #f3c3c3;
+}
+
+section {
+    padding: 2rem;
+    text-align: center;
+}
+
+#sinopse img.poster {
+    max-width: 250px;
+    width: 100%;
+    margin-top: 1.5rem;
+    transition: transform 0.3s ease;
+}
+
+#sinopse img.poster:hover {
+    transform: scale(1.05);
+}
+
+.card-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.card {
+    background: #172547;
+    padding: 1.2rem;
+    width: 210px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease;
+    text-align: left;
+}
+
+.card img {
+    width: 100%;
+    border-radius: 8px;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+form textarea {
+    width: 80%;
+    max-width: 500px;
+    padding: 10px;
+    border: 1px solid #edecec;
+    border-radius: 8px;
+    background: #1a1a2e;
+    color: #f1f1f1;
+    margin-bottom: 1rem;
+    resize: none;
+}
+
+form button {
+    padding: 10px 20px;
+    background: #e94560;
+    color: #f1f1f1;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+form button:hover {
+    background: #f3c3c3;
+    color: #1a1a2e;
+}
+
+footer {
+    background: #0f3460;
+    color: #f1f1f1;
+    text-align: center;
+    padding: 1rem;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    color: #f1f1f1;
+    background: #1a1a2e;
+    line-height: 1.6;
+    margin: 0;
+    padding: 20px;
+    border: 15px solid #172547;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.6);
+    border-radius: 0;
+}
+
